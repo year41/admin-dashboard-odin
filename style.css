@@ -446,9 +446,9 @@ a {
         gap: 15px;
     }
 
-    .sidebar {
+    .title.desktop {
         position: sticky;
-        top: 0;
+        top: 10px;
     }
 
     .sidebar p {
@@ -460,7 +460,13 @@ a {
 
     .main-icons {
         position: sticky;
-        top: calc(20px + 38px + 60px);
+        top: calc(10px + 38px + 60px);
+    }
+    
+    .settings {
+        position: sticky;
+        top: calc(10px + 38px + 60px + 219px + 60px);
+        align-self: start;
     }
 
     .main-content {
