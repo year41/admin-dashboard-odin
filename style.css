@@ -446,11 +446,21 @@ a {
         gap: 15px;
     }
 
+    .sidebar {
+        position: sticky;
+        top: 0;
+    }
+
     .sidebar p {
         font-size: 18px;
         font-weight: 600;
         text-align: left;
         align-content: center;
+    }
+
+    .main-icons {
+        position: sticky;
+        top: calc(20px + 38px + 60px);
     }
 
     .main-content {
