@@ -41,6 +41,7 @@ a {
 }
 
 .header {
+    z-index: 0;
     padding: 15px 20px 15px 20px;
     background-color: var(--header-bg-color);
     box-shadow: 0 3px 8px -4px #898989;
@@ -233,7 +234,6 @@ a {
 .main-content {
     padding: 25px 20px;
     background-color: var(--main-bg-color);
-    z-index: -1;
     grid-row: 3 / 4;
 
     display: grid;
