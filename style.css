@@ -1,5 +1,4 @@
 :root.light {
-/* :root[data-theme="light"] { */
     --header-bg-color: #fefefe;
     --btn-bg-color: #1c94d3;
     --btn-tex-color: #fff;
@@ -14,7 +13,6 @@
 }
 
 :root.dark {
-/* :root[data-theme="dark"] { */
     --header-bg-color: #747474;
     --btn-bg-color: #396881;
     --btn-tex-color: #d7d7d7;
